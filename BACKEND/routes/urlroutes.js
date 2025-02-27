@@ -1,5 +1,5 @@
 const express = require("express");
-const {nanoid} = require("nanoid");
+const {nanoid} = await import("nanoid");
 const URL = require("../models/Url");
 const router = express.Router();
 //short the url
